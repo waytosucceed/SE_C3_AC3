@@ -1,0 +1,99 @@
+[
+    {
+      "questionNo": "Q1",
+      "question": "Which of the following is the HCF of 12 and 18?",
+      "options": ["3", "6", "9", "12"],
+      "correct": 1
+    },
+    {
+      "questionNo": "Q2",
+      "question": "HCF of 45 and 75 is ___ ?",
+      "options": ["3", "5", "15", "25"],
+      "correct": 2
+    },
+    {
+      "questionNo": "Q3",
+      "question": "Find the greatest number which divides 35 and 62 leaving a remainder of 8 in each case?",
+      "options": ["25", "27", "33", "36"],
+      "correct": 1
+    },
+    {
+      "questionNo": "Q4",
+      "question": "Find the greatest number which divides 131 and 160 leaving remainder 7, 5 respectively.",
+      "options": ["12", "21", "31", "33"],
+      "correct": 2
+    },
+    {
+      "questionNo": "Q5",
+      "question": "Find the number E in the image?<br><img width='60%' src='./assests/images/2.png'>",
+      "options": ["14", "21", "28", "42"],
+      "correct": 0
+    },
+    {
+        "questionNo": "Q5",
+        "question": "What is the sum of numbers A, B and D from the image? <br><img width='60%' src='./assests/images/1.png'>",
+        "options": ["40", "46", "52", "56"],
+        "correct": 3
+    },
+    {
+      "questionNo": "Q6",
+      "question": "What is the HCF of two prime numbers?",
+      "options": ["1", "The smallest prime number", "The largest prime number", "The product of the two prime numbers"],
+      "correct": 0
+    },
+    {
+      "questionNo": "Q7",
+      "question": "Which of the following pairs of numbers has the same highest common factor (HCF) as 24 and 36?",
+      "options": ["12 and 18", "16 and 20", "15 and 25", "12 and 48"],
+      "correct": 3
+    },
+    {
+      "questionNo": "Q8",
+      "question": "Which of the following pairs has the same HCF as 15 and 20?",
+      "options": ["10 and 30", "12 and 18", "25 and 35", "9 and 12"],
+      "correct": 2
+    },
+    {
+      "questionNo": "Q9",
+      "question": "A gym instructor has 24 yoga mats and 36 dumbbells. She wants to divide them into the same number of groups with equal quantities of both items. What is the largest number of groups she can make?",
+      "options": ["6", "8", "12", "16"],
+      "correct": 2
+    },
+    {
+      "questionNo": "Q10",
+      "question": "A teacher has 45 math books and 60 science books. She wants to arrange them into stacks with the same number of books in each stack. What is the largest number of stacks she can make?",
+      "options": ["5", "10", "15", "20"],
+      "correct": 2
+    },
+    {
+      "questionNo": "Q11",
+      "question": "Three friends have 90 marbles, 120 marbles, and 150 marbles, respectively. They want to divide all their marbles into bags, each containing the same number of marbles. What is the largest number of marbles each bag can hold?",
+      "options": ["30", "40", "50", "60"],
+      "correct": 0
+    },
+    {
+      "questionNo": "Q12",
+      "question": "Which of these pairs are not coprime numbers?",
+      "options": ["16, 27", "20, 33", "18, 24", "11, 17"],
+      "correct": 2
+    },
+    {
+      "questionNo": "Q13",
+      "question": "Which of the following pairs are coprime numbers?",
+      "options": ["14, 21", "15, 28", "18, 24", "35, 50"],
+      "correct": 1
+    },
+    {
+      "questionNo": "Q14",
+      "question": "Two ropes are 126 meters and 154 meters long, respectively. What is the greatest length of rope that can be used to cut both ropes into smaller pieces of equal length without any remainder?",
+      "options": ["14 meters", "15 meters", "18 meters", "21 meters"],
+      "correct": 0
+    },
+    {
+      "questionNo": "Q15",
+      "question": "Two tankers contain 720 liters and 1080 liters of milk, respectively. What is the maximum capacity of a container that can measure the milk from both tankers exactly?",
+      "options": ["120 liters", "240 liters", "360 liters", "480 liters"],
+      "correct": 2
+    }
+  ]
+  

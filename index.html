@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header{
+  height:5%;
+  width:100%
+}
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1250px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          width: 45%;
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+      .button-container {
+  position: fixed; /* Fix the button to the screen */
+  top: 10%; /* Set distance from top */
+  right: 10%; /* Set distance from left */
+  z-index: 100; /* Ensure the button stays above other content */
+}
+      .button {
+        
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Optional */
+    }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-color:white;width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0);  padding-bottom:10px;">
+        <img src="assests/logo/Logo_last.png" width="5%" style="float:left; margin-top:1.5%;" class="img-responsive">
+        <span> <img src="assests/logo/header.png" width="30%" height="80%" class="img-responsive"></span>
+      </div>
+
+      <div class="content-container">
+       
+          <div class="lesson-title">HCF & Division Method</div>
+
+        <div class="lesson-content">
+          <div>
+            <h2>Highest Common Factor :</h2>
+            <p>
+              The Greatest Common Factor (HCF), also known as the Greatest Common Factor (GCF) or Greatest Common Divisor (GCD), is the largest positive integer that divides two or more numbers without leaving a remainder. In simpler terms, it is the biggest number that all the given numbers share as a factor.
+              <br>There are two common methods to find the HCF: <b>Prime Factorisation</b> and <b>Division Method</b>.
+            </p>
+            <h2>Prime Factorisation Method:</h2>
+            <p>The prime Factorisation method involves breaking down each number into its prime factors and then identifying the common factors.
+          
+            </p>
+            <h3>Steps:</h3>
+            <ol>
+              <li><b>Find the Prime Factors:</b> Use a factor tree to break down each number into its prime factors.</li>
+              <li><b>List the Prime Factors:</b> Write down the prime factors for each number.</li>
+              <li><b>Identify Common Factors:</b> Look for the prime factors that appear in both lists.</li>
+              <li><b>Multiply Common Factors:</b> Multiply these common prime factors together to find the HCF.</li>
+            </ol>
+            <p><b>Example:</b> Finding HCF of 24 and 36            </p>
+            <ol>
+              <li><b>Prime Factorisation of 24:</b> Used factor tree to do prime factorisation.</li>
+              <li><b>Prime Factorisation of 36:</b> Used factor tree to do prime factorisation.</li>
+              <li><b>Common Prime Factors:</b> From 24 = 2<sup>3</sup> × 3 and 36 = 2<sup>2</sup> × 3<sup>2</sup>, the common prime factors are:
+                <ul>
+                  <li>2 (maximum power is 2)</li>
+                  <li>3 (maximum power is 1)</li>
+                </ul>
+              </li>
+              <li><b>Calculate HCF:</b> 
+                <ul>
+                  <li><b>Multiply the common prime factors:</b> HCF = 2<sup>2</sup> × 3<sup>1</sup> = 12.
+                    <br>So, the HCF of 24 and 36 is 12.
+                    <img src="./assests/explaination/2.png" alt="" width="100%">
+                    </li>
+                </ul>
+              </li>
+            </ol>
+
+            <h2>Division Method : </h2>
+            <p>The division method involves dividing the numbers by their common factors until no further division is possible.</p>
+            <h3>Steps:</h3>
+            <ol>
+              <li>Divide the bigger number by the smaller number.</li>
+              <li>If you get a remainder, divide the smaller number by that remainder.</li>
+              <li>Keep dividing until you get a remainder of zero.</li>
+              <li>The last number you divided by is the HCF!</li>
+            </ol>
+            <p><b>Example:</b> Finding HCF of 48 and 18.
+            </p>
+            <ol>
+              <li>Divide the larger number (48) by the smaller number (18) : 48 ÷ 18 = 2 remainder 12.</li>
+              <li>Replace the larger number with the smaller number and divide again:
+                <ul>
+                  <li> <b>Now divide 18 by the remainder 12:</b> 18 ÷ 12 = 1 remainder 6</li>
+                </ul>
+              </li>
+              <li>Repeat the process with the new pair:
+                <ul><li><b>Divide 12 by 6:</b> 12 ÷ 6 = 2 remainder 0.</li></ul></li>
+              <li><b>Stop when the remainder is 0:</b>
+              <ul>
+                <li>The divisor at this step (6) is the HCF.</li>
+              </ul></li>
+            </ol>
+            <p>So, HCF of 48 and 18 = 6.</p>
+            <img src="./assests/explaination/1.png" alt="" width="70%">
+            <h2>Co-prime Numbers :</h2>
+            <p>Two numbers are called coprime if their highest common factor (HCF) is 1. This means they have no common factors other than 1, even if they are not prime themselves.
+              <br><b>Example:</b>15 and 28 are co-prime because their factors are : 
+              <br>15 : 1, 3, 5, 15 and 28 : 1, 2, 4, 7 ,14, 28. The only common factor is 1. 
+               
+            </p>
+
+          </div>
+        </div>
+        
+        
+        
+      </div>
+      <div class="button-container">
+        <a href="question.html" class="button">To Practice<br>Click Next</a>
+    </div>
+    </div>
+  </body>
+</html>
